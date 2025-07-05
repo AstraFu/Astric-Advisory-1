@@ -16,15 +16,22 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <style>
-      .masthead-subheading {
-        font-size: 3rem;
-        font-weight: 700;
-      }
-      .masthead-heading {
-        font-size: 1.75rem;
-        font-weight: 400;
-      }
-    </style>
+  .masthead-subheading {
+    font-size: 3rem;        /* Large and attention-grabbing */
+    font-weight: 700;
+    color: #ffffff;         /* Make sure it's white for dark backgrounds */
+    margin-bottom: 1rem;
+  }
+
+  .masthead-heading {
+    font-size: 1.5rem;      /* Smaller supporting text */
+    font-weight: 300;
+    color: #dddddd;         /* Slightly lighter color to de-emphasize */
+    text-transform: none;   /* Remove all-uppercase if desired */
+    margin-bottom: 2rem;
+  }
+</style>
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -50,7 +57,7 @@
         <header class="masthead">
             <div class="container">
                 <div class="masthead-subheading">Welcome To Astric Advisory!</div>
-                <div class="masthead-heading text-uppercase">Your Professional and Trusted Tax Agent</div>
+                <div class="masthead-heading">Your Professional and Trusted Tax Agent</div>
                 <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
             </div>
         </header>
